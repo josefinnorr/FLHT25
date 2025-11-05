@@ -1,0 +1,154 @@
+﻿<Window x:Class="YatzyHW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YatzyHW"
+        mc:Ignorable="d"
+        Title="Yatzy Protocol" Height="550" Width="800">
+    <Grid>
+        <TextBlock 
+            x:Name="title"
+            HorizontalAlignment="Left" 
+            Margin="36,14,0,0" 
+            TextWrapping="Wrap" 
+            Text="Yatzy-protocol" 
+            FontSize="20"
+            FontWeight="Bold"
+            VerticalAlignment="Top" Height="38" Width="145"/>
+
+
+        <TextBox 
+            x:Name="ones"
+            HorizontalAlignment="Left" 
+            Margin="36,82,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+
+        <TextBox 
+            x:Name="twos"
+            HorizontalAlignment="Left" 
+            Margin="36,160,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+
+        <TextBox 
+            x:Name="threes"
+            HorizontalAlignment="Left" 
+            Margin="36,238,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+        <TextBox 
+            x:Name="fours"
+            HorizontalAlignment="Left" 
+            Margin="219,82,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+        <TextBox 
+            x:Name="fives"
+            HorizontalAlignment="Left" 
+            Margin="219,160,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+
+        <TextBox 
+            x:Name="sixes"
+            HorizontalAlignment="Left" 
+            Margin="219,238,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="148" 
+            Height="31"/>
+
+        <Button 
+            x:Name="sumUp"
+            Content="Räkna ut resultat" 
+            Background="Tomato"
+            HorizontalAlignment="Left" 
+            BorderThickness="3"
+            BorderBrush="Black"
+            Margin="117,294,0,0" VerticalAlignment="Top" Height="52" Click="Button_Click" FontFamily="Segoe UI"/>
+        <Label 
+            x:Name="resultDisplay"
+            FontWeight="Bold"
+            Content="Resultat" 
+            HorizontalAlignment="Left" 
+            Margin="148,366,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Ettor:"
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="36,45,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Tvåor:"
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="36,118,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Treor:"
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="36,196,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Fyror: "
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="219,40,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Femmor: "
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="219,118,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            Content="Sexor: "
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="219,196,0,0" 
+            VerticalAlignment="Top"/>
+
+
+
+
+
+    </Grid>
+</Window>

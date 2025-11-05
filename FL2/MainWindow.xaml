@@ -1,0 +1,35 @@
+﻿<Window x:Class="FL2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FL2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button 
+            x:Name="btnOK"
+            Content="OK" 
+            HorizontalAlignment="Left" 
+            Margin="297,128,0,0" 
+            VerticalAlignment="Top" Height="101" Width="139" RenderTransformOrigin="0.519,0.582" Click="btnOK_Click"/>
+
+        <TextBox 
+            x:Name="txtName"
+            FontSize="20"
+            HorizontalAlignment="Left" 
+            Margin="85,55,0,0" 
+            TextWrapping="Wrap" 
+            Text="Fyll i ditt namn:" 
+            VerticalAlignment="Top" Width="258" Height="50" TextChanged="txtName_TextChanged"/>
+
+        <TextBox 
+           x:Name="txtAge"
+           HorizontalAlignment="Left" 
+           Margin="375,52,0,0" 
+           TextWrapping="Wrap" 
+           Text="Fyll i din ålder:" 
+           VerticalAlignment="Top" Width="203" Height="53" TextChanged="txtAge_TextChanged"/>
+
+    </Grid>
+</Window>
