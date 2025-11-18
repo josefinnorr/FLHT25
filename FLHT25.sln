@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL2", "FL2\FL2.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YatzyHW", "YatzyHW\YatzyHW.csproj", "{BA708DA0-E120-4BB9-B3B0-D86C928F5DB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL8", "FL8\FL8.csproj", "{BFC54DE0-1371-4729-B289-ADA150D8EA77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BA708DA0-E120-4BB9-B3B0-D86C928F5DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA708DA0-E120-4BB9-B3B0-D86C928F5DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA708DA0-E120-4BB9-B3B0-D86C928F5DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC54DE0-1371-4729-B289-ADA150D8EA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC54DE0-1371-4729-B289-ADA150D8EA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC54DE0-1371-4729-B289-ADA150D8EA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC54DE0-1371-4729-B289-ADA150D8EA77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

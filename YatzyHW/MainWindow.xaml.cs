@@ -44,27 +44,27 @@ namespace YatzyHW
                 MessageBox.Show("Ogiltigt värde för ettor. Försök igen.");
                 valid = false;
             }
-            if (twosEntered != 0 && twosEntered < 2 || twosEntered >= 11 || !allowedTwos.Contains(twosEntered))
+            if (!allowedTwos.Contains(twosEntered))
             {
                 MessageBox.Show("Ogiltigt värde för tvåor. Försök igen.");
                 valid = false;
             }
-            if (threesEntered != 0 && threesEntered < 3 || threesEntered >= 16 || !allowedThrees.Contains(threesEntered))
+            if (!allowedThrees.Contains(threesEntered))
             {
                 MessageBox.Show("Ogiltigt värde för treor. Försök igen.");
                 valid = false;
             }
-            if (foursEntered != 0 && foursEntered < 4 || foursEntered >= 21 || !allowedFours.Contains(foursEntered))
+            if (!allowedFours.Contains(foursEntered))
             {
                 MessageBox.Show("Ogiltigt värde för fyror. Försök igen.");
                 valid = false;
             }
-            if (fivesEntered != 0 && fivesEntered < 5 || fivesEntered >= 26 || !allowedFives.Contains(fivesEntered))
+            if (!allowedFives.Contains(fivesEntered))
             {
                 MessageBox.Show("Ogiltigt värde för femmor. Försök igen.");
                 valid = false;
             }
-            if (sixesEntered != 0 && sixesEntered < 6 || sixesEntered >= 31 || !allowedSixes.Contains(sixesEntered))
+            if (!allowedSixes.Contains(sixesEntered))
             {
                 MessageBox.Show("Ogiltigt värde för sexor. Försök igen.");
                 valid = false;
