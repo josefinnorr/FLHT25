@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL8", "FL8\FL8.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL11", "FL11\FL11.csproj", "{01188683-2600-4C16-9253-88256C694C9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{B291B57F-3E56-45C6-9278-D29CF6A056D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{01188683-2600-4C16-9253-88256C694C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01188683-2600-4C16-9253-88256C694C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01188683-2600-4C16-9253-88256C694C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
