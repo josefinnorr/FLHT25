@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL11", "FL11\FL11.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{B291B57F-3E56-45C6-9278-D29CF6A056D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rock-Paper-Scissors_Game", "Rock-Paper-Scissors_Game\Rock-Paper-Scissors_Game.csproj", "{7DE24D06-5A18-486C-9DDD-67251BA2E4EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B291B57F-3E56-45C6-9278-D29CF6A056D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE24D06-5A18-486C-9DDD-67251BA2E4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE24D06-5A18-486C-9DDD-67251BA2E4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE24D06-5A18-486C-9DDD-67251BA2E4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE24D06-5A18-486C-9DDD-67251BA2E4EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
