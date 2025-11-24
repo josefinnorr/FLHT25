@@ -17,6 +17,18 @@ namespace Nöjesfältet
     public partial class MainWindow : Window
     {
         int _length;
+        int[] lengths = {
+             186, 147, 175, 94, 171, 132, 145, 198, 104, 197,
+             157, 198, 92, 129, 175, 124, 94, 185, 89, 106,
+             135, 197, 103, 68, 136, 130, 197, 143, 102, 112,
+             116, 175, 169, 140, 189, 194, 172, 182, 112, 163,
+             164, 178, 168, 190, 143, 154, 168, 181, 157, 84,
+             203, 188, 105, 175, 155, 140, 174, 203, 139, 106,
+             173, 177, 195, 136, 166, 202, 161, 95, 181, 198,
+             100, 141, 182, 97, 100, 191, 68, 101, 160, 93,
+             146, 178, 74, 172, 184, 173, 138, 96, 144, 91,
+             139, 104, 106, 142, 100, 179, 159, 160, 128, 121};
+
 
         public MainWindow()
         {
@@ -62,6 +74,18 @@ namespace Nöjesfältet
 
             WithAdult();
             CarouselCheck();
+
+            int antalÅkare = 0;
+
+            for (int i = 0; i < lengths.Length; i++)
+            {
+                if (lengths[i] >= 130 && lengths[i] <= 139)
+                {
+                    antalÅkare++;
+                }
+                
+            }
+            MessageBox.Show($"Antal åkare: {antalÅkare}");
 
             //if(_length < 140)
             //{
