@@ -23,18 +23,50 @@ namespace Nöjesfältet
             InitializeComponent();
         }
 
+        private void CarouselCheck()
+        {
+            if(_length >= 150)
+            {
+                MessageBox.Show("Du får åka alla karuseller!");
+            }
+            else if(_length <= 149 && _length >= 140)
+            {
+                MessageBox.Show("Du får åka: Småbarnens Karusell, Snurrande tekoppar, Flygande elefanter och Lilla berg-och-dalbanan.");
+            }
+            else if(_length <= 139 && _length >= 130)
+            {
+                MessageBox.Show("Du får åka: Småbarnens Karusell, Snurrande tekoppar och Flygande elefanter.");
+            }
+            else if(_length <= 129 && _length >= 110)
+            {
+                MessageBox.Show("Du får åka: Småbarnens Karusell och Snurrande tekoppar.");
+            }
+            else if(_length <= 109 && _length >= 89)
+            {
+                MessageBox.Show("Du får åka Småbarnens Karusell");
+            }
+            else if(_length < 89)
+            {
+                MessageBox.Show("Du är tillräckligt lång för att åka!");
+
+            }
+
+        }
+
         private void btnCheck_Click(object sender, RoutedEventArgs e)
         {
             _length = int.Parse(txtLength.Text);
 
-            if(_length < 140)
-            {
-                MessageBox.Show("Tyvärr, du är inte tillräckligt lång för att åka.");
-            }
-            else
-            {
-                MessageBox.Show("Du är tillräckligt lång för att åka!");
-            }
+            CarouselCheck();
+
+            //if(_length < 140)
+            //{
+            //    MessageBox.Show("Tyvärr, du är inte tillräckligt lång för att åka.");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Du är tillräckligt lång för att åka!");
+            //}
         }
     }
 }
