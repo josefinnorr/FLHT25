@@ -1,0 +1,25 @@
+﻿<Window x:Class="Nöjesfältet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nöjesfältet"
+        mc:Ignorable="d"
+        Title="Nöjesfältet : Length Checker" Height="450" Width="800">
+    <Grid Background="LightCoral">
+        <Label 
+            FontSize="20"
+            FontWeight="Bold"
+            Content="Length Checker" HorizontalAlignment="Left" Margin="67,30,0,0" VerticalAlignment="Top" Width="233"/>
+
+        <TextBox 
+            x:Name="txtLength"
+            FontSize="18"
+            HorizontalAlignment="Left" Margin="67,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="63"/>
+        
+        <Button 
+            x:Name="btnCheck"
+            Content="Check" HorizontalAlignment="Left" Margin="121,231,0,0" VerticalAlignment="Top" Height="37" Width="92" Click="btnCheck_Click"/>
+
+    </Grid>
+</Window>
