@@ -16,10 +16,13 @@
             x:Name="txtLength"
             FontSize="18"
             HorizontalAlignment="Left" Margin="67,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="63"/>
-        
+
         <Button 
             x:Name="btnCheck"
             Content="Check" HorizontalAlignment="Left" Margin="121,231,0,0" VerticalAlignment="Top" Height="37" Width="92" Click="btnCheck_Click"/>
+        <CheckBox 
+            x:Name="chkWithAdult"
+            Content="With Adult" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="284,168,0,0"/>
 
     </Grid>
 </Window>

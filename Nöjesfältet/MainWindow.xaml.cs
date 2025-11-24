@@ -23,6 +23,14 @@ namespace Nöjesfältet
             InitializeComponent();
         }
 
+        private void WithAdult()
+        {
+            if(chkWithAdult.IsChecked == true)
+            {
+                _length = 130;
+            }
+        }
+
         private void CarouselCheck()
         {
             if(_length >= 150)
@@ -41,14 +49,9 @@ namespace Nöjesfältet
             {
                 MessageBox.Show("Du får åka: Småbarnens Karusell och Snurrande tekoppar.");
             }
-            else if(_length <= 109 && _length >= 89)
+            else if(_length <= 89)
             {
                 MessageBox.Show("Du får åka Småbarnens Karusell");
-            }
-            else if(_length < 89)
-            {
-                MessageBox.Show("Du är tillräckligt lång för att åka!");
-
             }
 
         }
@@ -57,6 +60,7 @@ namespace Nöjesfältet
         {
             _length = int.Parse(txtLength.Text);
 
+            WithAdult();
             CarouselCheck();
 
             //if(_length < 140)
