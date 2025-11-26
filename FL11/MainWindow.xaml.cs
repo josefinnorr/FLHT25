@@ -73,7 +73,28 @@ namespace FL11
 
         private void btnsumma_Click(object sender, RoutedEventArgs e)
         {
-            
+            //sätt 1
+            Product product = new Product("Krusbär");
+            product.Country = "Sverige";
+            product.Weight = 200;
+            product.Price = 2.5;
+            product.Organic = true;
+
+            //sätt 2
+
+            Product product2 = new Product("Älgkött")
+            {
+                Country = "Norge",
+                Organic = true,
+                Price = 100,
+                Weight = 150
+            };
+
+            //sätt 3 - Konstruktor
+            Product product3 = new Product("Gurka");
+            product.SetPrice(1234);
+
+
             //hämta in summan från gränssnittet
 
             double pris = double.Parse(txtPris.Text);
