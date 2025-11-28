@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nöjesfältet", "Nöjesfäl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL13_Figurer", "FL13_Figurer\FL13_Figurer.csproj", "{B01539BD-AD78-4B07-AFB3-C98DAA245FF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL14_Eggfarm", "FL14_Eggfarm\FL14_Eggfarm.csproj", "{52A109B7-26A2-4236-BD39-E2866759DFE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B01539BD-AD78-4B07-AFB3-C98DAA245FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01539BD-AD78-4B07-AFB3-C98DAA245FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01539BD-AD78-4B07-AFB3-C98DAA245FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A109B7-26A2-4236-BD39-E2866759DFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A109B7-26A2-4236-BD39-E2866759DFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A109B7-26A2-4236-BD39-E2866759DFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A109B7-26A2-4236-BD39-E2866759DFE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
